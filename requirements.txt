@@ -1,1 +1,4 @@
 kagglehub
+pandas
+opencv-python
+matplotlib

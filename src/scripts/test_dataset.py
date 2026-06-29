@@ -1,6 +1,10 @@
 from src.datasets.mot17 import MOT17Sequence
 
-seq = MOT17Sequence("data/MOT17/train/MOT17-02-FRCNN")
+from pathlib import Path
+
+from config import MOT17_DIR
+
+seq = MOT17Sequence(MOTI7_DIR / "train" / "MOT17-02-FRCNN")
 
 seq.summary()
 

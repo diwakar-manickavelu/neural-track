@@ -1,10 +1,9 @@
-from src.datasets.mot17 import MOT17Sequence
-
 from pathlib import Path
 
-from config import MOT17_DIR
+from src.datasets.mot17 import MOT17Sequence
+from src.config import MOT17_DIR
 
-seq = MOT17Sequence(MOTI7_DIR / "train" / "MOT17-02-FRCNN")
+seq = MOT17Sequence(MOT17_DIR / "train" / "MOT17-02-FRCNN")
 
 seq.summary()
 
